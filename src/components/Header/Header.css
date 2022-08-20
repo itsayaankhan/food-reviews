@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+    background-color: lightblue;
+    padding: 8px;
+}
+
+.navbar__left {
+    display: flex;
+}
+
+.navbar__logo {
+    box-sizing: border-box;
+    align-items: flex-start;
+    right: 100%;
+    left: 100%;
+    transform: translate(5%, 100%);
+    font-size: 16px;
+}
+
+.navbar__right {
+    display: flex;
+}
+
+.navbar__avatar {
+    display: flex;
+    border: 3px solid red;
+    right: 100%;
+    left: 100%;
+    transform: translate(-130%, -10%);
+}
+
+.navbar__avatar:hover {
+    transition: .5s;
+    opacity: 70%;
+}
+
+.navbar__loginBtn {
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    right: 100%;
+    left: 100%;
+    transform: translate(2457%, 2%);
+}
+
+.navbar__loginBtn:hover {
+    transition: 1s;
+    background-color: red;
+}
+
